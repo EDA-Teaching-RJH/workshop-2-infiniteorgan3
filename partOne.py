@@ -1,8 +1,11 @@
 def main():
-    slow = input("Input ")
-    replace(slow)
+    slow = input("Input your sentence here: ")
+    output = replace(slow)
+    print(output)
 
 def replace(text):
-  #Your code goes here.
+  outputtext = text.replace(" ", "...")
+  return outputtext
+
 
 main()
